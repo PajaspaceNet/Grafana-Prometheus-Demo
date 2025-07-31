@@ -1,0 +1,24 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Example Prometheus Dashboard",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Prometheus TSDB Head Series",
+        "targets": [
+          {
+            "expr": "prometheus_tsdb_head_series"
+          }
+        ],
+        "datasource": null,
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+  }
+}
